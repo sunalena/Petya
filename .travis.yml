@@ -1,5 +1,3 @@
 language: csharp
 solution: ConsoleApplication1.sln
-script:
-  - ./build.sh
-  - ./test.sh
+

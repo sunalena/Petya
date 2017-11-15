@@ -3,4 +3,5 @@ solution: ConsoleApplication1.sln
 script: 
     - sudo apt-get install -y gtk-sharp2
     - nuget restore ConsoleApplication1.sln
-    - ./test.sh
+    - ./UnitTestProject1/UnitTest1.cs
+
